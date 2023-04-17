@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS background</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 20px;
+            box-sizing: border-box;
+            /* background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg);
+            background-repeat: repeat-x;
+            background-attachment: fixed;
+            background-position: center;
+             */
+             background-color: lightblue;
+            
+            
+        }
+        h1{
+            background-color: red;
+        }
+        p{
+            background-color: bisque;
+        }
+        h2{
+            opacity: 0.6;
+            background-color: red;
+        }
+        h3{
+            opacity: 0.3;
+            background-color: red;
+
+        }
+        h4{
+            opacity: 0.2;
+            background-color: red;
+        }
+
+        .border1{
+            border: 2px solid red;
+            padding: 10px;
+            border-bottom-right-radius: 25px;
+            background-color: lightblue;
+            border bottom:;
+
+        }
+        .border2{
+            border: 2px solid red;
+            padding: 10px;
+            border-bottom-left-radius: 50px 20px;
+            background-color: lightblue;
+
+        }
+
+        .border3{
+            border-bottom-style: dashed;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is the CSS Background Color</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio omnis nobis, explicabo temporibus nihil optio recusandae, voluptates a ut esse distinctio deserunt. Perspiciatis laudantium aliquid odit vitae mollitia, ipsam ipsa.
+
+    </p>
+
+    <h2>Opacity 0.6</h2>
+    <h3>Opacity 0.3</h3>
+    <h4>Opacity 0.2</h4>
+
+    <div class="border1">
+        <p>The border radius is 25px which will not effect the other corners.</p>
+    </div>
+
+    <div class="border2">
+        <p>The border radius 50px 25px which will tilt the border of radius.</p>
+    </div>
+
+    <div class="border3">
+        <p>The border radius bottom which will tilt the border of radius.</p>
+    </div>
+</body>
+</html>
